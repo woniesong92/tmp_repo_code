@@ -178,12 +178,13 @@ body {
 }
 
 .widget-area {
-  border-left: 10px solid #BEC4EA;
+  border-right: 10px solid #BEC4EA;
 }
 
 .widget-title {
+  color: #BFBFBF;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -196,7 +197,7 @@ body {
 }
 
 .widget_recent_entries ul li a {
-  color: #6972A9;
+  color: #7F7F7F;
 }
 
 .edit-link {
