@@ -104,7 +104,7 @@ body {
 .blog-title {
   font-size: 20px;
   color: #363D6D;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .titlebar-logo-partition {
