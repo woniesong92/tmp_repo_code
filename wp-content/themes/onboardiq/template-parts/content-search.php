@@ -10,21 +10,42 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+  <div class="post-content-text">
+      <div class="entry-meta">
+          <?php onboardiq_posted_on(); ?>
+          <p style="padding-right: 15px; padding-left: 15px">|</p>
+          <fb:comments-count href="<?php echo get_permalink($post->ID); ?>"></fb:comments-count> comments
+      </div><!-- .entry-meta -->
+      <header class="entry-header">
+          <?php
+              if ( is_single() ) {
+                  the_title( '<h1 class="entry-title">', '</h1>' );
+              } else {
+                  the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+              }
 
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php onboardiq_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+          if ( 'post' === get_post_type() ) : ?>
+          <?php
+          endif; ?>
+      </header><!-- .entry-header -->
 
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+      <div class="entry-content">
+          <?php
+              the_excerpt( sprintf(
+                  /* translators: %s: Name of current post. */
+                  wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'onboardiq' ), array( 'span' => array( 'class' => array() ) ) ),
+                  the_title( '<span class="screen-reader-text">"', '"</span>', false )
+              ) );
+              wp_link_pages( array(
+                  'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'onboardiq' ),
+                  'after'  => '</div>',
+              ) );
+          ?>
+          <a href="<?php echo get_permalink(); ?>"> Read more</a>
+      </div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php onboardiq_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+      <footer class="entry-footer">
+          <?php onboardiq_entry_footer(); ?>
+      </footer><!-- .entry-footer -->
+    </div>
 </article><!-- #post-## -->
