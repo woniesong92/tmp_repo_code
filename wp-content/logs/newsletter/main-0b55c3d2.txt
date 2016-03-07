@@ -1,0 +1,3 @@
+26-01-2016 02:52:06 - ERROR - 20.6 MB - ERROR:  relation "wp_newsletter_emails" does not exist
+LINE 1: select * from wp_newsletter_emails where type='message' orde...
+                      ^

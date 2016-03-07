@@ -1,0 +1,6 @@
+26-01-2016 02:52:02 - ERROR - 20.6 MB - ERROR:  relation "wp_newsletter" does not exist
+LINE 1: select count(*) from wp_newsletter where 1=1
+                             ^
+26-01-2016 02:52:06 - ERROR - 20.6 MB - ERROR:  relation "wp_newsletter_emails" does not exist
+LINE 1: select count(*) from wp_newsletter_emails where type='email'
+                             ^
