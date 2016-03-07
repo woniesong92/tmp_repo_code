@@ -178,6 +178,7 @@ body {
 
 .widget-area {
   border-right: 10px solid #BEC4EA;
+  display: none;
 }
 
 .widget-title {
