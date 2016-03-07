@@ -105,11 +105,8 @@ body {
 }
 
 #subscribe-header {
-  height: 220px;
-  background: url('../images/subscribe-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  height: 150px;
+  width: 100%;
 }
 
 .subscribe-box {
@@ -128,24 +125,26 @@ body {
 }
 
 .subscribe-box .subscribe-email {
-  border-radius: 3px;
-  vertical-align: middle;
-  border: 0px;
+  border: none!important;
+  border-bottom: 1.5px solid #E5E5E5!important;
   height: 40px;
-  width: 250px;
+  width: 100%;
   outline: none;
+  vertical-align: middle;
   padding-left: 10px !important;
+  font-weight: 200;
 }
 
 .subscribe-box .subscribe-button {
-  border-radius: 3px;
+  border-radius: 5px;
   vertical-align: middle;
   border: 0px;
-  height: 40px;
+  width: 148px;
+  height: 50px;
   padding: 0 20px;
-  font-weight: 400;
+  font-weight: 200;
   outline: none;
-  background-color:#363D6D;
+  background-color:#7D82C3;
   color: #fff;
 }
 
