@@ -4,6 +4,7 @@ body {
 
 .navbar {
   margin-bottom: 0px;
+  display: none!important;
 }
 
 .navbar-custom {
@@ -102,6 +103,7 @@ body {
 }
 
 .blog-title {
+  float: right;
   font-size: 20px;
   color: #363D6D;
   text-transform: uppercase;
