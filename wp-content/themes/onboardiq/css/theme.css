@@ -188,7 +188,7 @@ body {
 }
 
 .widget_recent_entries ul li {
-  margin: 0 0 10px -82px;
+  margin: 10px 0 0 -82px;
 }
 
 .widget_recent_entries ul li a {
