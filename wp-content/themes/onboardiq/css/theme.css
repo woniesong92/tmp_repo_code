@@ -180,6 +180,7 @@ body {
   letter-spacing: 1px;
   font-weight: 200;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .widget_recent_entries ul {
