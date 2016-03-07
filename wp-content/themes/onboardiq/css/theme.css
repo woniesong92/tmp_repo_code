@@ -159,7 +159,7 @@ body {
   outline: none;
   padding-left: 35px!important;
   font-weight: 200;
-  margin: 30px 0 30px 0;
+  margin: 40px 0 40px 0;
   background: url('../images/search.png');
   background-size: 30px 30px;
   background-repeat: no-repeat;
@@ -187,11 +187,12 @@ body {
 }
 
 .widget_recent_entries ul li {
-  margin: 0 0 3px -70px;
+  margin: 0 0 10px -82px;
 }
 
 .widget_recent_entries ul li a {
   color: #7F7F7F;
+  font-size: 15px;
 }
 
 .edit-link {
