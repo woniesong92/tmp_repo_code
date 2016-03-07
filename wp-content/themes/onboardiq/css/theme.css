@@ -152,8 +152,7 @@ body {
 }
 
 .search-field {
-  border: none!important;
-  border-bottom: 2px solid #E5E5E5!important;
+  border-bottom: 1px solid #E5E5E5!important;
   height: 40px;
   width: 100%;
   outline: none;
@@ -162,14 +161,15 @@ body {
 }
 
 .search-submit {
-  border-radius: 3px;
+  /*border-radius: 3px;
   border: 0px;
   height: 40px;
   padding: 0 20px;
   font-weight: 400;
   outline: none;
   background-color:#363D6D;
-  color: #fff;
+  color: #fff;*/
+  display: none;
 }
 
 .widget-title {
