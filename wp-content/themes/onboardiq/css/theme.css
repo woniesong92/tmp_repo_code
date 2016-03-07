@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-custom {
-	background-color: #363D6D;
+  background-color: #363D6D;
   color: #ffffff;
   border-radius:0;
   height: 74px;
@@ -152,8 +152,7 @@ body {
 }
 
 .search-field {
-  border-radius: 3px;
-  border: 0px;
+  border-bottom: 2px solid pink;
   height: 40px;
   width: 100%;
   outline: none;
