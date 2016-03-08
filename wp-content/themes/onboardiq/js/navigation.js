@@ -5,19 +5,11 @@
  * support for dropdown menus.
  */
 ( function() {
-  if ($(window).width() < 250)
+  if ($(window).width() < 900)
     {
         $( ".widget-area" ).html( "<span class='red'>Hello <b>Again</b></span>" );
     }
 } )();
-
-
-  if ($(window).width() < 900)
-    {
-        
-    }
-
-
 
 $("#sugToggle").click(function() {
 	$("#sugs").slideToggle();
