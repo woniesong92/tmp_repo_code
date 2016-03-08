@@ -229,7 +229,8 @@ body {
 }
 
 .entry-date {
-  color: #333;
+  color: #BFBFBF;
+  font-size: 12px;
 }
 
 .entry-content {
