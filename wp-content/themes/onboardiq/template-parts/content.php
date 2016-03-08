@@ -17,7 +17,7 @@
       </div>
       <div class=".col-md-7 post-content-text">
         <div class="entry-meta">
-            <?php onboardiq_posted_on(); ?>
+            <img src=<?php onboardiq_posted_on(); ?>>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
