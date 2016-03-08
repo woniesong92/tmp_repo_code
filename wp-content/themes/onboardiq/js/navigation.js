@@ -7,7 +7,7 @@
 ( function() {
 	var container, button, menu, links, subMenus;
 
-	container = document.getElementById( 'site-navigation' );
+	container = document.getElementsByClassName( 'widget-area' )[0];
 	if ( ! container ) {
 		return;
 	}
