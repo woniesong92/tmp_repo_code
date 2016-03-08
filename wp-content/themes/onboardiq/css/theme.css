@@ -285,6 +285,7 @@ body {
 
 .post-thumbnail-img {
   max-width: calc(76% * 65%);
+  max-width: 100px!important;
 }
 
 .comments-divider {
