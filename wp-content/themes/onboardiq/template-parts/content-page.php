@@ -16,7 +16,7 @@
 
 	<div class="entry-content">
 		<?php
-			the_excerpt();
+			the_content();
 
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'onboardiq' ),
