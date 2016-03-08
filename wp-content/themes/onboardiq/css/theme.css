@@ -237,8 +237,9 @@ body {
 }
 
 #primary {
-  margin-top: -25px;
   margin-bottom: 50px;
+  width:75%;
+  float:right;
 }
 
 .post-article {
