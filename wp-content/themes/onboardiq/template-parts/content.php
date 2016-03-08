@@ -14,7 +14,7 @@
     <div class="row whole-content-post">
       <div class="col-sm-5 post-thumbnail-img">
         <img class="" src=<?php echo catch_that_image() ?>>
-        <h2><a href=<?php echo catch_that_image() ?>>Sourcing</a></h2>
+        <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
       </div>
       <div class="col-sm-7 post-content-text">
         <div class="entry-meta">
