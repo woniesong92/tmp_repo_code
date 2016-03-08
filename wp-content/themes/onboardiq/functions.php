@@ -121,8 +121,8 @@ function catch_that_image() {
   $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
   $first_img = $matches [1] [0];
 
-  if(empty($first_img)){ //Defines a default image
-    $first_img = "/images/default.jpg";
+  if(empty($first_img)){ //If no image
+    return;
   }
   return $first_img;
 }
