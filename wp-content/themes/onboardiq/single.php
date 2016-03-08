@@ -15,10 +15,7 @@
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php
-		while ( have_posts() ) : the_post();
-
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="container">
     <div class="row whole-content-post">
       <div class="col-sm-5 post-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
@@ -64,16 +61,6 @@
       </div><!-- .row -->
   </div><!-- .container -->
 </article><!-- #post-## -->
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
