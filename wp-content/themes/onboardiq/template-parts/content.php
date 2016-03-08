@@ -10,8 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="container whole-content-post">
-    <div class="row">
+  <div class="container">
+    <div class="row whole-content-post">
       <div class=".col-sm-5">
         <img class="post-thumbnail-img" src=<?php echo catch_that_image() ?>>
       </div>

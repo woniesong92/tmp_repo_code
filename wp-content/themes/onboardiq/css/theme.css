@@ -279,6 +279,10 @@ body {
   width: 76%;
 }
 
+.col-sm-5, .col-sm-7 {
+  display: inline-block;
+}
+
 .post-content-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
