@@ -12,8 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="container">
     <div class="row whole-content-post">
-      <div class="col-sm-5">
-        <img class="post-thumbnail-img" src=<?php echo catch_that_image() ?>>
+      <div class="col-sm-5 post-thumbnail-img">
+        <img class="" src=<?php echo catch_that_image() ?>>
       </div>
       <div class="col-sm-7 post-content-text">
         <div class="entry-meta">
