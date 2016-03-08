@@ -207,10 +207,11 @@ body {
   font-size: 15px;
 }
 
-.textwidget {
+.company-description {
   color: #7F7F7F;
   font-size: 12px;
   text-align: center;
+  width: 148px;
 }
 
 .edit-link {
