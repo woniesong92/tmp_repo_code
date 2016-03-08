@@ -291,13 +291,16 @@ body {
 .post-thumbnail-img h2 { 
   position: absolute;
   text-align: center;
+  font-size: 12px;
+  font-weight: 200;
   bottom: 20px; 
   width: 100%; 
 }
 
 .post-thumbnail-img h2 a { 
   color: #fff;
-  width: 30%;
+  width: 97px;
+  height: 24px;
   background-color: #BEC4EA;
   border-radius: 3px;
   text-transform: uppercase;
