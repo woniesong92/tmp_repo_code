@@ -33,7 +33,6 @@
         </header><!-- .entry-header -->
 
         <div class="entry-content">
-            <p>
             <?php
                 the_excerpt( sprintf(
                     /* translators: %s: Name of current post. */
@@ -45,7 +44,6 @@
                     'after'  => '</div>',
                 ) );
             ?>
-            </p>
             <a href="<?php echo get_permalink(); ?>"> Read more</a>
         </div><!-- .entry-content -->
 

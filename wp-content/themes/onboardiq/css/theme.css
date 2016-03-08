@@ -254,6 +254,8 @@ body {
 .entry-content {
   color: #7F7F7F;
   font-size: 15px;
+  width: inherit;
+  white-space: normal;
 }
 
 .entry-content a {
