@@ -183,6 +183,7 @@ body {
   padding: 10px!important;
   height: 100vh;
   background-color: #fff!important;
+  left: 0px!important;
 }
 
 .widget-title {
