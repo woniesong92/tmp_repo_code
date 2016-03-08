@@ -7,7 +7,7 @@
 ( function() {
   if ($(window).width() < 250)
     {
-        
+        $( ".widget-area" ).html( "<span class='red'>Hello <b>Again</b></span>" );
     }
 } )();
 
