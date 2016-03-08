@@ -122,7 +122,7 @@ body {
   display:inline-block;
 }
 
-.subscribe-header{
+#subscribe-header{
   display: none;
 }
 
