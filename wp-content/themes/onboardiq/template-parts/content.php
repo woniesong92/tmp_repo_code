@@ -10,6 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="entry-meta">
+		<?php onboardiq_posted_on(); ?>
+    </div><!-- .entry-meta -->
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) {
@@ -19,9 +22,6 @@
 			}
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php onboardiq_posted_on(); ?>
-		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
