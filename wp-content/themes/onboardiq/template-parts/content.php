@@ -16,7 +16,7 @@
         <img class="" src=<?php echo catch_that_image() ?>>
         <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
       </div>
-      <div class="col-sm-7 post-content-text">
+      <div class="post-content-text<?php if (is_null(catch_that_image())) echo ' col-sm-7'; ?>">
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
         </div><!-- .entry-meta -->
