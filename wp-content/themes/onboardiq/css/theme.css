@@ -19,6 +19,7 @@ body {
   border-radius:0;
   height: 74px;
   font-size: 12px;
+  display: none;
 }
 
 @media (min-width: 768px){
