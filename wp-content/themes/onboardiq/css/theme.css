@@ -159,6 +159,13 @@ body {
   background-color:#424B84;
 }
 
+.widget-area {
+  border-right: 10px solid #BEC4EA;
+  padding: 20px!important;
+  height: 100vh;
+  background-color: #fff!important;
+}
+
 .search-field {
   border: none!important;
   border-bottom: 1.5px solid #E5E5E5!important;
@@ -176,13 +183,6 @@ body {
 
 .search-submit {
   display: none;
-}
-
-.widget-area {
-  border-right: 10px solid #BEC4EA;
-  padding: 20px!important;
-  height: 100vh;
-  background-color: #fff!important;
 }
 
 .widget-title {
