@@ -21,14 +21,6 @@ body {
   font-size: 12px;
 }
 
-@media (min-width: 1000px){
-  .site-main .widget-area {
-     	float: left;
-     	overflow: hidden;
-     	width: 300px;
-	}
-}
-
 @media (max-width: 768px){
   .navbar-custom .navbar-nav {
     margin-top: 0px;
