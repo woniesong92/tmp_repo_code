@@ -274,7 +274,7 @@ body {
 }
 
 .whole-content-post {
-  width: 76%;
+  width: 80%;
 }
 
 .post-content-text {
@@ -284,7 +284,7 @@ body {
 }
 
 .post-thumbnail-img {
-  max-height: inherit;
+  height: inherit;
 }
 
 .comments-divider {
