@@ -284,8 +284,23 @@ body {
 }
 
 .post-thumbnail-img {
-  height: inherit;
+  max-height: inherit;
   max-width: inherit;
+}
+
+.post-thumbnail-img h2 { 
+  position: absolute;
+  text-align: center;
+  bottom: 20px; 
+  width: 100%; 
+}
+
+.post-thumbnail-img h2 a { 
+  color: #fff;
+  width: 30%;
+  background-color: #BEC4EA;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .comments-divider {
