@@ -292,17 +292,16 @@ body {
   position: absolute;
   text-align: center;
   bottom: 20px; 
-  width: 97px;
-  margin-left: calc((100% - 97px) / 2);
+  width: 100%;
   height: 24px;
   background-color: #BEC4EA;
   border-radius: 3px;
 }
 
-.post-thumbnail-img a { 
+.post-thumbnail-img span { 
   color: #fff;
   font-size: 12px;
-  width: 400px!important;
+  width: 97px;
   font-weight: 200;
   text-transform: uppercase;
 }
