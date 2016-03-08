@@ -12,7 +12,9 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="container">
     <div class="row whole-content-post">
-      <div class=".col-md-5"></div>
+      <div class=".col-md-5">
+        <?php echo catch_that_image() ?>
+      </div>
       <div class=".col-md-7 post-content-text">
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
