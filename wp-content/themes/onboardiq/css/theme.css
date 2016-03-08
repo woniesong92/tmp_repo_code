@@ -214,8 +214,6 @@ body {
   color: #363D6D;
 }
 
-.post .entry-utility, .post .entry-meta {display:none;}
-
 #primary {
   margin-top: -25px;
   margin-bottom: 50px;
@@ -232,6 +230,19 @@ body {
 
 .entry-date {
   color: #333;
+}
+
+.entry-content {
+  color: #7F7F7F;
+  font-size: 15px;
+}
+
+.entry-content a {
+  color: #7D88D4;
+}
+
+.entry-content a:hover {
+  text-decoration: none;
 }
 
 .entry-meta {
