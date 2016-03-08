@@ -42,7 +42,7 @@ body {
   }
   
   #primary, .widget-area {
-    width = 100%!important;
+    width: 100%!important;
   }
 }
 
