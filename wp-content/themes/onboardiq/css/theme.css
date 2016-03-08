@@ -266,10 +266,11 @@ body {
 
 .entry-meta {
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 .entry-header {
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .whole-content-post {
