@@ -12,12 +12,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="container">
     <div class="row whole-content-post">
-      <div class=".col-md-5">
-        <?php echo catch_that_image() ?>
+      <div class=".col-lg-5">
+        <img src=<?php echo catch_that_image() ?>>
       </div>
-      <div class=".col-md-7 post-content-text">
+      <div class=".col-lg-7 post-content-text">
         <div class="entry-meta">
-            <img src=<?php onboardiq_posted_on(); ?>>
+            <?php onboardiq_posted_on(); ?>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
