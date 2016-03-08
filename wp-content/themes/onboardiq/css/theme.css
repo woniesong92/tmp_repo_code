@@ -293,8 +293,7 @@ body {
   text-align: center;
   bottom: 20px; 
   width: 97px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: calc((100% - 97px) / 2);
   height: 24px;
   background-color: #BEC4EA;
   border-radius: 3px;
