@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row whole-content-post">
       <div class="col-sm-5 post-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
-        <img class="" src=<?php echo catch_that_image() ?>>
+        <img src=<?php echo catch_that_image() ?>>
         <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
       </div>
       <div class="post-content-text<?php if (!is_null(catch_that_image())) echo ' col-sm-7'; ?>">
