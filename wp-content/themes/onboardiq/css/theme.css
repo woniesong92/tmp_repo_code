@@ -272,6 +272,15 @@ body {
   margin-top: 15px;
 }
 
+.entry-header {
+  margin-top: 0px;
+}
+
+.post-content-text {
+  background-color: #fff;
+  border: 1px solid #E5E5E5;
+}
+
 .comments-divider {
   font-size: 14px;
   margin: 0px 10px;
