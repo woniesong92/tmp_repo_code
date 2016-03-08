@@ -7,9 +7,17 @@
 ( function() {
   if ($(window).width() < 900)
     {
-        $( "h1" ).html( "<span class='red'>Hello <b>Again</b></span>" );
+        $( ".widget-area" ).html( "<span class='red'>Hello <b>Again</b></span>" );
     }
 } )();
+
+
+  if ($(window).width() < 900)
+    {
+        
+    }
+
+
 
 $("#sugToggle").click(function() {
 	$("#sugs").slideToggle();
