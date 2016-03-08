@@ -1,11 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
 }
 
 .navbar {
   margin-bottom: 0px;
   display: none;
-  color: black;
 }
 
 .navbar-custom {
@@ -182,6 +182,7 @@ body {
   border-right: 10px solid #BEC4EA;
   padding: 10px!important;
   height: 100vh;
+  background-color: #fff!important;
 }
 
 .widget-title {
