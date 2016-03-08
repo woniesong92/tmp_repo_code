@@ -12,13 +12,6 @@
 } )();
 
 
-  if ($(window).width() < 900)
-    {
-        
-    }
-
-
-
 $("#sugToggle").click(function() {
 	$("#sugs").slideToggle();
 	if ($('#sugToggle').hasClass('fa-angle-up')) {
