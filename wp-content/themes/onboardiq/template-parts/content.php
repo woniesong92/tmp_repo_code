@@ -37,7 +37,7 @@
                     wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'onboardiq' ), array( 'span' => array( 'class' => array() ) ) ),
                     the_title( '<span class="screen-reader-text">"', '"</span>', false )
                 ) );
-
+                <a href="<?php echo get_permalink(); ?>"> Read more</a>
                 wp_link_pages( array(
                     'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'onboardiq' ),
                     'after'  => '</div>',
