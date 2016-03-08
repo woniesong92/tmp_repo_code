@@ -276,6 +276,10 @@ body {
   margin-top: 0px;
 }
 
+.whole-content-post {
+  width: 100%;
+}
+
 .post-content-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
