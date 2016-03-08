@@ -210,7 +210,7 @@ body {
 .textwidget {
   color: #7F7F7F;
   font-size: 12px;
-  width: 148px;
+  text-align: center;
 }
 
 .edit-link {
