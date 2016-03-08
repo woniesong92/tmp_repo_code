@@ -236,6 +236,10 @@ body {
   margin-bottom: 50px;
 }
 
+.post-article {
+  background-color: pink;
+}
+
 .entry-title a {
   font-size: 25px;
   color: #4F4F4F;
