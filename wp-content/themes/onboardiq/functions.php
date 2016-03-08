@@ -122,7 +122,7 @@ function catch_that_image() {
   $first_img = $matches [1] [0];
 
   if(empty($first_img)){ //If no image
-    return;
+    return null;
   }
   return $first_img;
 }
