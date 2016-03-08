@@ -5,6 +5,7 @@ body {
 .navbar {
   margin-bottom: 0px;
   display: none;
+  color: black;
 }
 
 .navbar-custom {
