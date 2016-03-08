@@ -178,6 +178,8 @@ body {
 
 .widget-area {
   border-right: 10px solid #BEC4EA;
+  padding: 10px!important;
+  height: 100vh;
 }
 
 .widget-title {
