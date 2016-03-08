@@ -184,6 +184,7 @@ body {
   height: 100vh;
   background-color: #fff!important;
   left: 0px!important;
+  margin-left: 0px!important;
 }
 
 .widget-title {
