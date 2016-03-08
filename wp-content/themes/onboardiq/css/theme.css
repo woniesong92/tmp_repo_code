@@ -174,7 +174,7 @@ body {
   outline: none;
   padding-left: 35px!important;
   font-weight: 200;
-  margin: 0 0 40px 0;
+  margin: 0 auto 40px auto;
   background: url('../images/search.png');
   background-size: 30px 30px;
   background-repeat: no-repeat;
