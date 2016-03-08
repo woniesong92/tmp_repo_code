@@ -122,6 +122,10 @@ body {
   display:inline-block;
 }
 
+.subscribe-header{
+  display: none;
+}
+
 .subscribe-box {
   position: relative;
   margin: 0 auto;

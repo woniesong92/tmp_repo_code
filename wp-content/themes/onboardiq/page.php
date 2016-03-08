@@ -1,4 +1,4 @@
-<!--<?php
+<?php
 /**
  * The template for displaying all pages.
  *
@@ -12,7 +12,7 @@
  * @package onboardiq
  */
 
- get_header(); ?>-->
+ get_header(); ?>
  <div class="row">
    <div class="container">
    <?php get_sidebar(); ?>
