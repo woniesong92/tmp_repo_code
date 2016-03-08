@@ -283,6 +283,10 @@ body {
   padding: 17px;
 }
 
+.post-thumbnail-image {
+  max-width: calc(76% * 65%);
+}
+
 .comments-divider {
   font-size: 14px;
   margin: 0px 10px;

@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row whole-content-post">
       <div class=".col-lg-5">
-        <img src=<?php echo catch_that_image() ?>>
+        <img class="post-thumbnail-img" src=<?php echo catch_that_image() ?>>
       </div>
       <div class=".col-lg-7 post-content-text">
         <div class="entry-meta">
