@@ -302,6 +302,7 @@ body {
 .post-thumbnail-img a { 
   color: #fff;
   font-size: 12px;
+  width: 400px!important;
   font-weight: 200;
   text-transform: uppercase;
 }
