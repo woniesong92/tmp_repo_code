@@ -254,8 +254,6 @@ body {
 .entry-content {
   color: #7F7F7F;
   font-size: 15px;
-  width: inherit;
-  white-space: normal;
 }
 
 .entry-content a {
@@ -283,6 +281,10 @@ body {
   background-color: #fff;
   border: 1px solid #E5E5E5;
   padding: 17px;
+}
+
+.post-thumbnail-img {
+  max-width: inherit;
 }
 
 .comments-divider {
