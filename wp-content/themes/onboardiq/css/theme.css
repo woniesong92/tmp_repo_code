@@ -134,7 +134,7 @@ body {
   border: none!important;
   border-bottom: 1.5px solid #E5E5E5!important;
   height: 40px;
-  width: 100%;
+  width: 80%;
   outline: none;
   vertical-align: middle;
   padding-left: 10px !important;
@@ -183,8 +183,6 @@ body {
   padding: 10px!important;
   height: 100vh;
   background-color: #fff!important;
-  left: 0px!important;
-  margin-left: 0px!important;
 }
 
 .widget-title {
@@ -207,6 +205,11 @@ body {
 .widget_recent_entries ul li a {
   color: #7F7F7F;
   font-size: 15px;
+}
+
+.textwidget {
+  color: #7F7F7F;
+  font-size: 12px;
 }
 
 .edit-link {
