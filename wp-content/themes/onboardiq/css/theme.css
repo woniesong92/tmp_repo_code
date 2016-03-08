@@ -214,17 +214,20 @@ body {
   color: #363D6D;
 }
 
+.post .entry-utility, .post .entry-meta {display:none;}
+
 #primary {
   margin-top: -25px;
   margin-bottom: 50px;
 }
 
 .entry-title a {
-  color: #363D6D;
+  font-size: 25px;
+  color: #4F4F4F;
 }
 
 .entry-title a:hover {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 .entry-date {
