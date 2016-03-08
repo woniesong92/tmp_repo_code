@@ -3,7 +3,7 @@ body {
   background-color: #F2F2F2;
 }
 
-.container {
+.container, .row {
   margin: 0px!important;
   padding: 0px!important;
 }
