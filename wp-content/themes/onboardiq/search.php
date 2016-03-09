@@ -1,21 +1,27 @@
 <?php
 /**
- * The template for displaying search results pages.
+ * The main template file.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package onboardiq
  */
 
- get_header(); ?>
- <div class="row">
-   <div class="container">
-   <?php get_sidebar(); ?>
-     <div class="col-md-8 col-xs-12">
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+get_header(); ?>
+<a class="btn btn-primary" role="button" data-toggle="collapse" href=".widget-area" aria-expanded="false" aria-controls="collapseExample">
+  <div class="sidebar-toggle-button"></div>
+</a>
+<div class="row">
+  <?php get_sidebar(); ?>
+    <div class="main-content">
+      <main id="main" class="site-main" role="main">
 
-		<?php
+      <?php
 		if ( have_posts() ) : ?>
 
 			<header class="page-header">
@@ -43,9 +49,7 @@
 
 		endif; ?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
-</div><!--col-md-8 col-xs-12 -->
-</div><!-- .container -->
+      </main><!-- #main -->
+  </div><!--main-content -->
 <?php
 get_footer();
