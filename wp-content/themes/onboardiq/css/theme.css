@@ -264,6 +264,8 @@ body {
 
 .whole-content-post {
   margin: 0px!important;
+  margin-right: 0px!important;
+  padding-right: 0px!important;
 }
 
 .post-content-text, .single-page-post-text {
