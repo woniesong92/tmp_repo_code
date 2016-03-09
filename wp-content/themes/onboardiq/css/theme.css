@@ -388,7 +388,7 @@ body {
 }
 
 #crestashareiconincontent {
-  display: fixed;
+  display: fixed!important;
   top: 300px!important;
   right: 0!important;
 }
