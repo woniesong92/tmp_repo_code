@@ -388,8 +388,10 @@ body {
   display: none!important;
 }
 
-.social-share-icons  {
+.social-share-icons, .social-share-icons #crestashareiconincontent {
   position: absolute;
   top: 28vw;
   right: 20px;
 }
+
+
