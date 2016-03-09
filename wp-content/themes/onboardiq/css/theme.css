@@ -218,8 +218,8 @@ body {
 }
 
 .subscribe-box .subscribe-email {
-  border: none!important;
-  border-bottom: 1.5px solid #E5E5E5!important;
+  border: none;
+  border-bottom: 1.5px solid #E5E5E5;
   height: 40px;
   width: 80%;
   outline: none;
