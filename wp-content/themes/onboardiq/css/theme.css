@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  margin: 0px!important;
-  padding: 0px!important;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar {
@@ -20,8 +20,8 @@ body {
 }
 
 .btn.btn-primary {
-  background-color: transparent!important;
-  border: 0px!important;
+  background-color: transparent;
+  border: 0px;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -29,7 +29,7 @@ body {
 }
 
 .btn:focus, .btn:active {
-   box-shadow: none!important;
+   box-shadow: none;
 }
 
 .sidebar-toggle-button {
