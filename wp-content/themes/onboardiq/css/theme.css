@@ -86,15 +86,15 @@ body {
   }
   
   .main-content {
-    width: 100vw;
+    width: 100%;
     position: relative;
     left: 0;
     padding: 0;
-    margin-left: 10vw;
+    margin-left: 5%;
   }
   
   .whole-content-post {
-    width: 90vw;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px!important;
