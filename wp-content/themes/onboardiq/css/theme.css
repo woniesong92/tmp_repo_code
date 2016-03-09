@@ -16,6 +16,9 @@ body {
 .btn.btn-primary {
   background-color: transparent!important;
   border: 0px!important;
+  position: fixed;
+  top: 20px;
+  left: 20px;
   z-index: 99;
 }
 
