@@ -390,14 +390,14 @@ body {
 
 .single-page-content .cresta-share-icon {
   position: absolute;
-  top: 27vw;
-  right: 16px;
+  top: 25vw;
+  right: 15px;
 }
 
 .single-page-content .cresta-share-icon i.c-icon-cresta-facebook, .single-page-content .cresta-share-icon i.c-icon-cresta-twitter, .single-page-content .cresta-share-icon i.c-icon-cresta-linkedin {
 	width: 60px!important;
 	height: 60px!important;
-	padding: 13px 0;
+	padding: 15px 0;
 }
 
 .single-page-content .cresta-share-icon .sbutton {
