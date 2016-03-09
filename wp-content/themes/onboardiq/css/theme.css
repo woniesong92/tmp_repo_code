@@ -392,3 +392,12 @@ body {
   top: 0;
   right: 0;
 }
+
+.sbutton {
+  margin: 0px!important;
+}
+
+.sbutton i {
+  width: 50px!important;
+  height: 50px!important;
+}
