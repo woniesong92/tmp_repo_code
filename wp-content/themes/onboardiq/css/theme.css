@@ -330,7 +330,7 @@ body {
 }
 
 .single-page-thumbnail-img {
-  height: 27vh;
+  height: 30vh;
   overflow: hidden;
   position: relative;
 }
@@ -391,7 +391,7 @@ body {
 .single-page-content .cresta-share-icon {
   position: absolute;
   top: 27vw;
-  right: 18px;
+  right: 16px;
 }
 
 .single-page-content .cresta-share-icon i.c-icon-cresta-facebook, .single-page-content .cresta-share-icon i.c-icon-cresta-twitter, .single-page-content .cresta-share-icon i.c-icon-cresta-linkedin {
