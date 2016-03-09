@@ -1,8 +1,13 @@
+html, body, div{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
 body {
   font-family: 'San Francisco', sans-serif;
   font-weight: 200;
   background-color: #F2F2F2;
-  margin: 0;
 }
 
 .container {
