@@ -408,7 +408,9 @@ body {
   font-size: 25px!important;
 }
 
-
+.post-content-text #crestashareicon{
+  display: inline-block;
+}
 
 .post-content-text .cresta-share-icon {
   float: right;
