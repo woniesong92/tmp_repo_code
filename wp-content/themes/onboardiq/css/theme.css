@@ -388,6 +388,6 @@ body {
   display: none!important;
 }
 
-#crestashareicon {
-  display: none!important;
+#crestashareiconincontent  {
+  display: absolute!important;
 }
