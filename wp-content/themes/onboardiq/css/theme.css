@@ -51,7 +51,11 @@ body {
     height: 100%;
   }
   
-  .main-content, .whole-content-post {
+  .main-content {
+    width: calc(100% - 320px);
+  }
+  
+  .whole-content-post {
     width: calc(100% - 320px);
   }
 }
@@ -65,9 +69,13 @@ body {
     display: none;
   }
   
-  .main-content, .whole-content-post {
+  .main-content {
     width: 100%;
     left: 0;
+  }
+  
+  .whole-content-post {
+    width: calc(100% - 320px);
   }
 }
 
@@ -252,6 +260,10 @@ body {
 
 .entry-header {
   margin-top: -10px;
+}
+
+.whole-content-post {
+  margin: 0px!important;
 }
 
 .post-content-text, .single-page-post-text {
