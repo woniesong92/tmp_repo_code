@@ -331,10 +331,13 @@ body {
 }
 
 .single-page-thumbnail-img {
-  width: calc(100% - 290px);!important;
   height: 300px;
   overflow: hidden;
   position: relative;
+}
+
+.single-page-thumbnail-img img {
+  width: 100%!important;
 }
 
 .single-page-thumbnail-img div {
