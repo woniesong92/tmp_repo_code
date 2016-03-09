@@ -40,7 +40,7 @@ body {
   left: 320px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .sidebar-toggle-button {
     display: none;
   }
@@ -60,7 +60,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .sidebar-toggle-button {
     display: fixed;
   }
@@ -75,7 +75,7 @@ body {
   }
   
   .whole-content-post {
-    width: calc(100% - 320px);
+    width: 100%;
   }
 }
 
