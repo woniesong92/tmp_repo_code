@@ -37,7 +37,7 @@
 	content: "";
 	position: absolute;
 	top: 0;
-	bottom: -30px;
+	bottom: -20px;
 	left: 39%;
 	right: -6px;
 	background: rgba(0,0,0,.1);
@@ -100,8 +100,8 @@
 }
 .cresta-share-icon i.c-icon-cresta-facebook, .cresta-share-icon i.c-icon-cresta-twitter, .cresta-share-icon i.c-icon-cresta-gplus, .cresta-share-icon i.c-icon-cresta-linkedin, .cresta-share-icon i.c-icon-cresta-pinterest, .cresta-share-icon i.c-icon-cresta-print {
 	color: #ffffff;
-	width: 50px !important;
-	height: 50px !important;
+	width: 20px !important;
+	height: 20px !important;
 	text-align: center !important;
 	padding: 11px 0;
 	border: 2px solid transparent;
