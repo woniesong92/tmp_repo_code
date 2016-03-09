@@ -395,4 +395,12 @@ body {
 
 .sbutton {
   margin: 0px!important;
+  height: 50px;
+  width: 50px;
+}
+
+.sbutton i {
+  margin: 0px!important;
+  height: 50px;
+  width: 50px;
 }
