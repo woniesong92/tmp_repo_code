@@ -408,11 +408,11 @@ body {
   font-size: 25px!important;
 }
 
-.post-content-text #crestashareicon{
+whole-content-post > #crestashareicon{
   display: inline-block;
 }
 
-.post-content-text .cresta-share-icon {
+whole-content-post > .cresta-share-icon {
   float: right;
   display: inline-block;
 }
