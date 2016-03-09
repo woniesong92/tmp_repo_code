@@ -255,7 +255,7 @@ body {
 }
 
 .whole-content-post {
-  width: 80%;
+  width: inherit;
   margin: 0px!important;
 }
 
