@@ -407,3 +407,13 @@ body {
 .single-page-content #crestashareiconincontent {
   font-size: 25px!important;
 }
+
+.post-content-text #crestashareicon {
+  display: none!important;
+}
+
+.post-content-text .cresta-share-icon {
+  position: absolute;
+  top: 30vh;
+  right: 15px;
+}
