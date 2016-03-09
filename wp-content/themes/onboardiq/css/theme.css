@@ -303,6 +303,7 @@ body {
   width: 100%!important;
   height: 300px;
   overflow: hidden;
+  position: relative;
 }
 
 .single-page-thumbnail-img div {
