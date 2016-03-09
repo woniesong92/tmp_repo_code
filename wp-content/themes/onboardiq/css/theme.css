@@ -39,7 +39,7 @@ body {
   }
 
   .widget-area {
-    display: inline-block!important;
+    display: fixed!important;
   }
 }
 
@@ -128,9 +128,9 @@ body {
   height: 150vh;
   width: 290px!important;
   background-color: #fff!important;
-  /*position: fixed;
+  position: fixed;
   left: 0;
-  top: 0;*/
+  top: 0;
 }
 
 .search-field {
