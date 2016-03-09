@@ -387,14 +387,16 @@ body {
   display: none!important;
 }
 
-#crestashareiconincontent {
-  display: fixed!important;
-  top: 300px!important;
-  right: 0!important;
+.social-share-buttons {
+  display: absolute;
+  top: 300px;
+  right: 0;
 }
 
 .sbutton {
   margin: 0px!important;
+  width: 50px!important;
+  height: 50px!important;
 }
 
 .sbutton i {
