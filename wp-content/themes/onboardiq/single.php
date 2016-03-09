@@ -25,10 +25,7 @@ get_header(); ?>
           <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
         </div>
         <div class="single-page-post-text">
-          <div class="social-share-buttons">
-            <?php echo do_shortcode("[cresta-social-share]"); ?>
-          </div>
-          
+          <?php echo do_shortcode("[cresta-social-share]"); ?>
           <div class="entry-meta">
               <?php onboardiq_posted_on(); ?>
               <p style="padding-right: 15px; padding-left: 15px">|</p>
