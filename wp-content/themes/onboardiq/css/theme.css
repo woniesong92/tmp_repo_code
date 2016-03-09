@@ -90,11 +90,10 @@ body {
     position: relative;
     left: 0;
     padding: 0;
-    margin-left: 7vw;
   }
   
   .whole-content-post {
-    width: 90vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px!important;
