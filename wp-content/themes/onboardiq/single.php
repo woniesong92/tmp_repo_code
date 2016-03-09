@@ -17,7 +17,8 @@ get_header(); ?>
   <div class="sidebar-toggle-button"></div>
 </a>
 <div class="row">
-  <div class="social-share-icons"><?php get_sidebar(); ?></div>
+  <?php get_sidebar(); ?>
+  <div class="social-share-icons"><?php echo do_shortcode("[cresta-social-share]"); ?></div>
     <div class="single-page-content">
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="single-page-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
