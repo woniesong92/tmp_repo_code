@@ -388,7 +388,7 @@ body {
 }
 
 .social-share-buttons {
-  display: absolute;
+  display: absolute!important;
   top: 300px;
   right: 0;
 }
