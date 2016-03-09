@@ -44,7 +44,7 @@ body {
 }
 
 /*------------- resizing -------------*/
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .sidebar-toggle-button {
     display: none;
   }
@@ -76,7 +76,7 @@ body {
   }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1023px) {
   .sidebar-toggle-button {
     display: fixed;
   }
@@ -86,15 +86,15 @@ body {
   }
   
   .main-content {
-    width: 100%;
+    width: 100vw;
     position: relative;
     left: 0;
     padding: 0;
-    margin-left: 5%;
+    margin-left: 7vw;
   }
   
   .whole-content-post {
-    width: 90%;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px!important;
