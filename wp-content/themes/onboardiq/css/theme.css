@@ -35,17 +35,17 @@ body {
 
 @media (min-width: 768px) {
   .sidebar-toggle-button {
-    display: none!important;
+    display: none;
   }
 
   .widget-area {
-    display: fixed!important;
+    display: fixed;
   }
 }
 
 @media (max-width: 767px) {
   .sidebar-toggle-button {
-    display: fixed!important;
+    display: fixed;
   }
 
   .widget-area {
@@ -139,7 +139,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 98;
+  z-index: 98!important;
 }
 
 .search-field {
