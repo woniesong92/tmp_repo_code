@@ -266,11 +266,6 @@ body {
   text-decoration: none!important;
 }
 
-.entry-date {
-  color: #BFBFBF;
-  font-size: 12px;
-}
-
 .entry-content {
   color: #7F7F7F;
   font-size: 15px;
@@ -288,6 +283,12 @@ body {
 .entry-meta {
   margin-top: 15px;
   margin-bottom: 0px;
+  color: #BFBFBF;
+  font-size: 12px;
+}
+
+.entry-meta > * {  
+   display: inline-block;
 }
 
 .entry-header {
