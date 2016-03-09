@@ -15,7 +15,6 @@
 get_header(); ?>
 <a class="btn btn-primary" role="button" data-toggle="collapse" href=".widget-area" aria-expanded="false" aria-controls="collapseExample">
   <div class="sidebar-toggle-button"></div>
-<img src="images/line-menu.png">
 </a>
 <div class="row">
   <div class="container">
