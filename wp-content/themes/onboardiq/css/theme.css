@@ -386,3 +386,9 @@ body {
 #crestashareicon {
   display: none!important;
 }
+
+#crestashareiconincontent {
+  display: absolute;
+  top: 0px;
+  right: 0px;
+}

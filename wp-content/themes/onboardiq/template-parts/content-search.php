@@ -13,6 +13,8 @@
   <div class="post-content-text">
       <div class="entry-meta">
           <?php onboardiq_posted_on(); ?>
+          <p style="padding-right: 15px; padding-left: 15px">|</p>
+          <?php comments_number(); ?>
       </div><!-- .entry-meta -->
       <header class="entry-header">
           <?php
