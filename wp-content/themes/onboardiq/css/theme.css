@@ -155,8 +155,11 @@ body {
 .widget-area {
   border-right: 10px solid #BEC4EA;
   padding: 20px!important;
-  height: 100vh;
+  height: 100%;
   background-color: #fff!important;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .search-field {
@@ -335,7 +338,7 @@ body {
   font-size: 14px;
   margin: 0px 10px;
   color: #333;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .comments-title {
