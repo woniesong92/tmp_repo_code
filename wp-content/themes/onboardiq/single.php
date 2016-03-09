@@ -42,7 +42,9 @@ get_header(); ?>
               <?php
               endif; ?>
           </header><!-- .entry-header -->
-
+          
+          <?php echo do_shortcode("[cresta-social-share]"); ?>
+          
           <div class="entry-content">
               <?php
                   the_content( sprintf(
