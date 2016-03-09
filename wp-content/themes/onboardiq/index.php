@@ -14,7 +14,7 @@
 
 get_header(); ?>
 <a class="btn btn-primary" role="button" data-toggle="collapse" href=".widget-area" aria-expanded="false" aria-controls="collapseExample">
-  Link with href
+<img src="images/line-menu.png">
 </a>
 <div class="row">
   <div class="container">
