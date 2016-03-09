@@ -1,3 +1,4 @@
+html, body { overflow-x: hidden; }
 body {
   font-family: 'San Francisco', sans-serif;
   font-weight: 200;
@@ -106,7 +107,8 @@ body {
   color: #363D6D;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  margin-right: 15px;
 }
 
 .titlebar-logo-partition {
