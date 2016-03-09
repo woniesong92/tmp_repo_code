@@ -50,26 +50,26 @@ body {
   }
 
   .widget-area {
-    display:inline-block!important;
+    display:inline-block;
     display: fixed;
-    height: 100%!important;
+    height: 100%;
   }
   
   .main-content {
     width: calc(100vw - 350px);
-    position: relative!important;
+    position: relative;
     left: 350px;
     padding: 60px 60px 60px 0;
   }
   
   .whole-content-post {
     width: calc(100vw - 400px);
-    margin-bottom: 60px!important;
+    margin-bottom: 60px;
   }
   
   .single-page-content {
     width: calc(100% - 290px);
-    position: relative!important;
+    position: relative;
     left: 290px;
   }
 }
@@ -85,19 +85,19 @@ body {
   
   .main-content {
     width: 100vw;
-    position: relative!important;
+    position: relative;
     left: 50px;
     padding: 50px 50px 50px 0;
   }
   
   .whole-content-post {
     width: 90vw;
-    margin-bottom: 50px!important;
+    margin-bottom: 50px;
   }
   
   .single-page-content {
     width: 100%;
-    position: relative!important;
+    position: relative;
     left: 0;
   }
 }
