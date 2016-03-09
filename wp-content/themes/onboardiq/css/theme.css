@@ -383,7 +383,7 @@ body {
   margin-bottom: 0!important;
 }
 
-#crestashareicon {
+#crestashareicon, #crestashareiconincontent {
   display: none!important;
 }
 
@@ -395,11 +395,4 @@ body {
 
 .sbutton {
   margin: 0px!important;
-  width: 50px!important;
-  height: 50px!important;
-}
-
-.sbutton i {
-  width: 50px!important;
-  height: 50px!important;
 }
