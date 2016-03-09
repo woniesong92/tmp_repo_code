@@ -385,7 +385,7 @@ body {
 
 /*------------- shareicons -------------*/
 .single-page-content #crestashareicon {
-  visibility: hidden;
+  visibility: hidden!important;
 }
 
 .single-page-content .cresta-share-icon {
@@ -409,7 +409,7 @@ body {
 }
 
 .whole-content-post > #crestashareicon{
-  display: inline-block;
+  visibility: visible;
 }
 
 .whole-content-post > .cresta-share-icon {
