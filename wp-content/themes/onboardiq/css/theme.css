@@ -20,7 +20,7 @@ body {
 }
 
 .btn.btn-primary {
-  background-color: transparent;
+  background-color: transparent!important;
   border: 0px;
   position: fixed;
   top: 20px;
