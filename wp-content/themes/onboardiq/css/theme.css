@@ -299,6 +299,14 @@ body {
   border-radius: 3px;
 }
 
+.post-thumbnail-img a { 
+  color: #fff;
+  font-size: 12px;
+  width: 400px!important;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 .single-page-thumbnail-img {
   width: 100%!important;
   height: 300px;
@@ -317,12 +325,16 @@ body {
   border-radius: 3px;
 }
 
-.post-thumbnail-img a { 
+.single-page-thumbnail-img a { 
   color: #fff;
   font-size: 12px;
   width: 400px!important;
   font-weight: 200;
   text-transform: uppercase;
+}
+
+.post-thumbnail-img a:visited, single-page-thumbnail-img a:visited{ 
+  color: #fff;
 }
 
 .comments-divider {

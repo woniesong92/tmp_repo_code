@@ -11,9 +11,6 @@
  <div class="row">
    <div class="container">
    <?php get_sidebar(); ?>
-     <div class="col-md-8 col-xs-12">
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
               <div class="single-page-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
@@ -57,10 +54,6 @@
                 </footer><!-- .entry-footer -->
                 </div><!-- .col-md-7 -->
         </article><!-- #post-## -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-</div><!--col-md-8 col-xs-12 -->
 </div><!-- .container -->
 <?php
 get_footer();
