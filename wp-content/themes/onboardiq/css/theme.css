@@ -358,6 +358,10 @@ body {
   color: #fff;
 }
 
+.post-thumbnail-img a:hover, single-page-thumbnail-img a:hover{ 
+  text-decoration: none;
+}
+
 .comments-divider {
   font-size: 14px;
   margin: 0px 10px;
@@ -368,6 +372,10 @@ body {
 .comments-title {
   font-size: 20px;
   font-weight: 600;
+}
+
+.post {
+  margin-bottom: 0;
 }
 
 
