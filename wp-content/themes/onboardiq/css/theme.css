@@ -350,5 +350,5 @@ body {
 }
 
 #crestashareicon {
-  float: right!important;
-  left: 20px!important;
+  display: none!important;
+}
