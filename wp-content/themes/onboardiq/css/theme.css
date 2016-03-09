@@ -40,13 +40,6 @@ body {
   background-position: center;
 }
 
-.main-content {
-  width: calc(100% - 350px);
-  position: relative!important;
-  left: 350px;
-  padding: 60px 60px 60px 0;
-}
-
 @media (min-width: 1024px) {
   .sidebar-toggle-button {
     display: none;
@@ -68,6 +61,12 @@ body {
   .whole-content-post {
     width: calc(100% - 350px);
   }
+  
+  .single-page-content {
+    width: calc(100% - 290px);
+    position: relative!important;
+    left: 290px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -88,6 +87,12 @@ body {
   
   .whole-content-post {
     width: 100%;
+  }
+  
+  .single-page-content {
+    width: 100%;
+    position: relative!important;
+    left: 0;
   }
 }
 

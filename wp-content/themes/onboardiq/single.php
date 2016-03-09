@@ -18,7 +18,7 @@ get_header(); ?>
 </a>
 <div class="row">
   <?php get_sidebar(); ?>
-    <div class="main-content">
+    <div class="single-page-content">
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
               <div class="single-page-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
                 <img src=<?php echo catch_that_image() ?>>
