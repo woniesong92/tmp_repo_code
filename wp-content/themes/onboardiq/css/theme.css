@@ -384,7 +384,7 @@ body {
 
 
 /*------------- shareicons -------------*/
-#crestashareicon {
+.single-page-content #crestashareicon {
   display: none!important;
 }
 
@@ -406,4 +406,13 @@ body {
 
 .single-page-content #crestashareiconincontent {
   font-size: 25px!important;
+}
+
+.post-content-text #crestashareiconincontent{
+  display: none!important;
+}
+
+.post-content-text .cresta-share-icon {
+  float: right;
+  display: inline-block;
 }

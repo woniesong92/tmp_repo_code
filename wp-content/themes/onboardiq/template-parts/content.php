@@ -21,6 +21,7 @@
             <?php onboardiq_posted_on(); ?>
             <p style="padding-right: 15px; padding-left: 15px">|</p>
             <fb:comments-count href="<?php echo get_permalink($post->ID); ?>"></fb:comments-count> comments
+            <?php echo do_shortcode("[cresta-social-share]"); ?>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
