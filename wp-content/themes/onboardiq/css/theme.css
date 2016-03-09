@@ -388,9 +388,9 @@ body {
 }
 
 #crestashareiconincontent {
-  display: absolute!important;
-  top: 0;
-  right: 0;
+  display: fixed;
+  top: 300px!important;
+  right: 0!important;
 }
 
 .sbutton {

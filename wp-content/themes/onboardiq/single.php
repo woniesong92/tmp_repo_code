@@ -55,7 +55,6 @@ get_header(); ?>
                       'after'  => '</div>',
                   ) );
               ?>
-              <a href="<?php echo get_permalink(); ?>"> Read more</a>
           </div><!-- .entry-content -->
 
           <footer class="entry-footer">
