@@ -33,45 +33,23 @@ body {
   background-position: center;
 }
 
-@media (max-width: 990px){
-  .navbar-custom .navbar-nav {
-    margin-top: 0px;
-    color:#fff;
-    background-color: #4B5388;
-    padding: 5px 0;
+@media (min-width: 768px) {
+  .sidebar-toggle-button {
+    display: none!important;
   }
 
-  a.menu-item {
-    color:#fff;
-  }
-
-  .demo a {
-    color:#fff;
-  }
-
-  .navbar-collapse {
-    border-top: 0px;
+  .widget-area {
+    display: inline-block!important;
   }
 }
 
-
-@media (min-width: 768px) {
-  .navbar-collapse .demo a {
-    margin-top: 20px;
-    padding: 8px 12px;
-    margin-left: 12px;
-    background-color: #fff;
-    color: #363D6D;
-    border-radius: 5px;
+@media (max-width: 767px) {
+  .sidebar-toggle-button {
+    display: fixed!important;
   }
 
-  .navbar-collapse .demo a:hover {
-    margin-top: 20px;
-    padding: 8px 12px;
-    margin-left: 12px;
-    background-color: #efefef !important;
-    color: #363D6D;
-    border-radius: 5px;
+  .widget-area {
+    display: none;
   }
 }
 
