@@ -13,6 +13,15 @@ body {
   display: none;
 }
 
+.sidebar-toggle-button {
+  width: 45px;
+  height: 45px;
+  background: url('../images/line-menu.png');
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media (max-width: 990px){
   .navbar-custom .navbar-nav {
     margin-top: 0px;
@@ -34,30 +43,6 @@ body {
   }
 }
 
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-	  background-color:transparent;
-}
-
-.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: #363D6D;
-}
-
-.navbar-custom .navbar-brand {
-  	color:#eeeeee;
-}
-.navbar-custom .navbar-toggle {
-  	background-color:#eeeeee;
-}
-
-.navbar-toggle {
-  margin: 20px 15px 10px 0;
-}
-
-.navbar-custom .icon-bar {
-  	background-color:#363D6D;
-}
 
 @media (min-width: 768px) {
   .navbar-collapse .demo a {
@@ -77,10 +62,6 @@ body {
     color: #363D6D;
     border-radius: 5px;
   }
-}
-
-.menu-item-active {
-  font-weight: 600;
 }
 
 .navbar-brand.logo {
