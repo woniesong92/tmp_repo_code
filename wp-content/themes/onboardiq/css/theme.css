@@ -331,7 +331,7 @@ body {
 }
 
 .single-page-thumbnail-img {
-  width: 100%!important;
+  width: calc(100% - 290px);!important;
   height: 300px;
   overflow: hidden;
   position: relative;
@@ -371,6 +371,10 @@ body {
 .comments-title {
   font-size: 20px;
   font-weight: 600;
+}
+
+.post {
+  margin-bottom: 0!important;
 }
 
 #crestashareicon {
