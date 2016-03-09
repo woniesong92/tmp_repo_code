@@ -89,7 +89,7 @@ body {
     width: 100vw;
     position: relative;
     left: 0;
-    padding: 0;
+    padding: 0 5vw;
   }
   
   .whole-content-post {
