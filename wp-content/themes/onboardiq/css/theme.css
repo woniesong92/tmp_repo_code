@@ -33,6 +33,10 @@ body {
   background-position: center;
 }
 
+.main-content {
+  width: 80%;
+}
+
 @media (min-width: 768px) {
   .sidebar-toggle-button {
     display: none;
@@ -41,6 +45,10 @@ body {
   .widget-area {
     display:inline-block!important;
     display: fixed;
+  }
+  
+  .main-content {
+    width: 80%;
   }
 }
 
@@ -52,14 +60,10 @@ body {
   .widget-area {
     display: none;
   }
-}
-
-.collapse.width {
-    height: auto;
-    -webkit-transition: width 0.35s ease;
-    -moz-transition: width 0.35s ease;
-    -o-transition: width 0.35s ease;
-    transition: width 0.35s ease;
+  
+  .main-content {
+    width: 100%;
+  }
 }
 
 .navbar-brand.logo {
@@ -134,7 +138,7 @@ body {
 .widget-area {
   border-right: 10px solid #BEC4EA;
   padding: 20px!important;
-  height: 150vh;
+  height: 100%;
   width: 290px!important;
   background-color: #fff!important;
   position: fixed;
@@ -202,10 +206,6 @@ body {
 
 .comments-link a {
   color: #363D6D;
-}
-
-#primary {
-  margin-bottom: 50px;
 }
 
 .post-article {
