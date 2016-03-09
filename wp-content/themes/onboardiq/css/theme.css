@@ -400,3 +400,6 @@ body {
 	padding: 20px 0;
 }
 
+.single-page-content .cresta-share-icon .sbutton {
+  margin: 0!important;
+}
