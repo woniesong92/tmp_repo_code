@@ -39,8 +39,7 @@ body {
   width: calc(100% - 350px);
   position: relative!important;
   left: 350px;
-  padding-top: 60px;
-  padding-right: 0px!important;
+  padding: 60px 60px 60px 0;
 }
 
 @media (min-width: 1024px) {
@@ -56,6 +55,7 @@ body {
   
   .main-content {
     width: calc(100% - 350px);
+    left: 350px;
   }
   
   .whole-content-post {
@@ -188,7 +188,7 @@ body {
   color: #BFBFBF;
   font-size: 12px;
   letter-spacing: 1px;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
