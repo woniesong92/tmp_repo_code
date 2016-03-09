@@ -36,9 +36,11 @@ body {
 }
 
 .main-content {
-  width: calc(100% - 320px);
+  width: calc(100% - 350px);
   position: relative!important;
-  left: 320px;
+  left: 350px;
+  padding-top: 60px;
+  padding-right: 0px!important;
 }
 
 @media (min-width: 1024px) {
@@ -53,11 +55,11 @@ body {
   }
   
   .main-content {
-    width: calc(100% - 320px);
+    width: calc(100% - 350px);
   }
   
   .whole-content-post {
-    width: calc(100% - 320px);
+    width: calc(100% - 350px);
   }
 }
 
