@@ -385,7 +385,7 @@ body {
 
 /*------------- shareicons -------------*/
 .single-page-content #crestashareicon {
-  display: none!important;
+  visibility: hidden;
 }
 
 .single-page-content .cresta-share-icon {
