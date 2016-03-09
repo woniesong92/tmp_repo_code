@@ -19,6 +19,8 @@
       <div class="post-content-text<?php if (!is_null(catch_that_image())) echo ' col-sm-7'; ?>">
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
+            <p style="padding-right: 20px; padding-left: 20px">|</p>
+            <?php $comments_count = wp_count_comments(); echo $comments_count->approved . " comments";?>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
