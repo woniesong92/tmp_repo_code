@@ -10,8 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="container">
-    <div class="row whole-content-post">
+  <div class="container whole-content-post">
+    <div class="row">
       <div class="col-sm-5 post-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
         <img src=<?php echo catch_that_image() ?>>
         <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
