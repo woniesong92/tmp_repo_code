@@ -59,7 +59,7 @@ body {
   }
   
   .whole-content-post {
-    width: calc(100% - 350px);
+    margin-bottom: 60px!important;
   }
   
   .single-page-content {
@@ -86,7 +86,7 @@ body {
   }
   
   .whole-content-post {
-    width: 100%;
+    margin-bottom: 50px!important;
   }
   
   .single-page-content {
@@ -272,6 +272,7 @@ body {
 .entry-content {
   color: #7F7F7F;
   font-size: 15px;
+  padding: 20px;
 }
 
 .entry-content a {
@@ -293,6 +294,7 @@ body {
 }
 
 .whole-content-post {
+  width: 100%;
   margin: 0px!important;
   margin-right: 0px!important;
   padding-right: 0px!important;
