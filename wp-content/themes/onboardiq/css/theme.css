@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'San Francisco', sans-serif;
   background-color: #F2F2F2;
 }
 
@@ -9,16 +9,7 @@ body {
 }
 
 .navbar {
-  margin-bottom: 0px;
   display: none;
-}
-
-.navbar-custom {
-  background-color: #363D6D;
-  color: #ffffff;
-  border-radius:0;
-  height: 74px;
-  font-size: 12px;
 }
 
 @media (max-width: 990px){
