@@ -1,4 +1,7 @@
-html, body { overflow-x: hidden; }
+html, body { 
+  overflow-x: hidden; 
+}
+
 body {
   font-family: 'San Francisco', sans-serif;
   font-weight: 200;
@@ -8,8 +11,8 @@ body {
 }
 
 .container {
-  margin: 0px!important;
-  padding: 0px!important;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navbar {
@@ -17,8 +20,8 @@ body {
 }
 
 .btn.btn-primary {
-  background-color: transparent!important;
-  border: 0px!important;
+  background-color: transparent;
+  border: 0px;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -26,7 +29,7 @@ body {
 }
 
 .btn:focus, .btn:active {
-   box-shadow: none!important;
+   box-shadow: none;
 }
 
 .sidebar-toggle-button {
@@ -40,6 +43,7 @@ body {
   background-position: center;
 }
 
+/*------------- resizing -------------*/
 @media (min-width: 1024px) {
   .sidebar-toggle-button {
     display: none;
@@ -98,6 +102,77 @@ body {
   }
 }
 
+/*------------- sidebar -------------*/
+.widget-area {
+  border-right: 10px solid #BEC4EA;
+  padding: 20px;
+  height: 100%;
+  width: 290px;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 98;
+}
+
+.widget {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.widget-title {
+  color: #BFBFBF;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.widget_search, .widget_recent_entries {
+  width: 80%;
+}
+
+.widget_recent_entries ul {
+  list-style-type: none;
+}
+
+.widget_recent_entries ul li {
+  margin: 10px 0 0 -82px;
+}
+
+.widget_recent_entries ul li a {
+  color: #7F7F7F;
+  font-size: 15px;
+}
+
+.search-field {
+  border: none;
+  border-bottom: 1.5px solid #E5E5E5;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  padding-left: 35px;
+  font-weight: 200;
+  margin: 0 auto 40px auto;
+  background: url('../images/search.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.search-submit {
+  display: none;
+}
+
+.company-description {
+  color: #7F7F7F;
+  font-size: 12px;
+  text-align: center;
+  width: 165px;
+  margin: 40px auto 40px auto;
+}
+
 .navbar-brand.logo {
   float: left;
   margin-left: 15px;
@@ -143,13 +218,13 @@ body {
 }
 
 .subscribe-box .subscribe-email {
-  border: none!important;
-  border-bottom: 1.5px solid #E5E5E5!important;
+  border: none;
+  border-bottom: 1.5px solid #E5E5E5;
   height: 40px;
   width: 80%;
   outline: none;
   vertical-align: middle;
-  padding-left: 10px !important;
+  padding-left: 10px;
   font-weight: 200;
   margin-bottom: 10px;
 }
@@ -171,76 +246,7 @@ body {
   background-color:#424B84;
 }
 
-.widget {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.widget_search, .widget_recent_entries {
-  width: 80%;
-}
-
-.widget-area {
-  border-right: 10px solid #BEC4EA;
-  padding: 20px!important;
-  height: 100%;
-  width: 290px!important;
-  background-color: #fff!important;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 98!important;
-}
-
-.search-field {
-  border: none!important;
-  border-bottom: 1.5px solid #E5E5E5!important;
-  height: 40px;
-  width: 100%;
-  outline: none;
-  padding-left: 35px!important;
-  font-weight: 200;
-  margin: 0 auto 40px auto;
-  background: url('../images/search.png');
-  background-size: 30px 30px;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
-.search-submit {
-  display: none;
-}
-
-.widget-title {
-  color: #BFBFBF;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-.widget_recent_entries ul {
-  list-style-type: none;
-}
-
-.widget_recent_entries ul li {
-  margin: 10px 0 0 -82px;
-}
-
-.widget_recent_entries ul li a {
-  color: #7F7F7F;
-  font-size: 15px;
-}
-
-.company-description {
-  color: #7F7F7F;
-  font-size: 12px;
-  text-align: center;
-  width: 165px;
-  margin: 40px auto 40px auto;
-}
-
+/*------------- posts -------------*/
 .edit-link {
   margin-left: 10px;
 }
@@ -263,7 +269,7 @@ body {
 }
 
 .entry-title a:hover {
-  text-decoration: none!important;
+  text-decoration: none;
 }
 
 .entry-content {
@@ -297,14 +303,14 @@ body {
 
 .whole-content-post {
   margin: 0px;
-  margin-right: 0px!important;
-  padding-right: 0px!important;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .post-content-text, .single-page-post-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
-  padding: 40px!important;
+  padding: 40px;
 }
 
 .post-thumbnail-img {
@@ -327,7 +333,7 @@ body {
 .post-thumbnail-img a { 
   color: #fff;
   font-size: 12px;
-  width: 400px!important;
+  width: 400px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -340,7 +346,7 @@ body {
 }
 
 .single-page-thumbnail-img img {
-  width: 100%!important;
+  width: 100%;
 }
 
 .single-page-thumbnail-img div {
@@ -357,7 +363,7 @@ body {
 .single-page-thumbnail-img a { 
   color: #fff;
   font-size: 12px;
-  width: 400px!important;
+  width: 400px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -380,19 +386,11 @@ body {
 }
 
 .post {
-  margin-bottom: 0!important;
+  margin-bottom: 0;
 }
 
+
+/*------------- shareicons -------------*/
 #crestashareicon, #crestashareiconincontent {
-  display: none!important;
-}
-
-.social-share-buttons #crestashareiconincontent {
-  display: absolute!important;
-  top: 300px;
-  right: 0;
-}
-
-.sbutton {
-  margin: 0px!important;
+  display: none;
 }
