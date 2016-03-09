@@ -255,6 +255,7 @@ body {
 .whole-content-post {
   width: 80%;
   margin: 0px!important;
+  position: relative;
 }
 
 .post-content-text, .single-page-post-text {
