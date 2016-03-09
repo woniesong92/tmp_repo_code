@@ -52,19 +52,19 @@ body {
   }
   
   .main-content {
-    width: calc(100% - 350px);
+    width: calc(100vw - 350px);
     position: relative!important;
     left: 350px;
     padding: 60px 60px 60px 0;
   }
   
   .whole-content-post {
-    width: 90%;
+    width: calc(100vw - 470px);
     margin-bottom: 60px!important;
   }
   
   .single-page-content {
-    width: calc(100% - 290px);
+    width: calc(100vw - 290px);
     position: relative!important;
     left: 290px;
   }
@@ -80,7 +80,7 @@ body {
   }
   
   .main-content {
-    width: 100%;
+    width: 100vw;
     position: relative!important;
     left: 50px;
     padding: 50px 50px 50px 0;
@@ -92,7 +92,7 @@ body {
   }
   
   .single-page-content {
-    width: 100%;
+    width: 100vw;
     position: relative!important;
     left: 0;
   }
