@@ -85,7 +85,7 @@ function fbcommentbox($content) {
 			$commenttitle .= $options['title']."</h3>";
 		}
 		if (!isset($commentcount)) {$commentcount = "";}
-		$content .= "<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;
+		/*$content .= "<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->".$commenttitle.$commentcount;*/
 
       	if ($options['html5'] == 'on') {
 			$content .=	"<div class=\"fb-comments\" data-href=\"".get_permalink()."\" data-num-posts=\"".$options['num']."\" data-width=\"".$options['width']."\" data-colorscheme=\"".$options['scheme']."\"></div>";
