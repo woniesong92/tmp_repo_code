@@ -272,7 +272,6 @@ body {
 .entry-content {
   color: #7F7F7F;
   font-size: 15px;
-  padding: 20px;
 }
 
 .entry-content a {
@@ -303,7 +302,7 @@ body {
 .post-content-text, .single-page-post-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
-  padding: 15px 24px 15px 24px;
+  padding: 40px!important;
 }
 
 .post-thumbnail-img {
