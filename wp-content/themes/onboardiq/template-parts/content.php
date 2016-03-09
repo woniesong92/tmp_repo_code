@@ -17,11 +17,11 @@
         <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
       </div>
       <div class="post-content-text<?php if (!is_null(catch_that_image())) echo ' col-sm-7'; ?>">
+        <?php echo do_shortcode("[cresta-social-share]"); ?>
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
             <p style="padding-right: 15px; padding-left: 15px">|</p>
             <p><fb:comments-count href="<?php echo get_permalink($post->ID); ?>"></fb:comments-count> comments</p>
-            <?php echo do_shortcode("[cresta-social-share]"); ?>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
