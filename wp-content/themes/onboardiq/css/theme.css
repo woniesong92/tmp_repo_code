@@ -91,11 +91,11 @@ body {
     width: 100vw;
     position: relative;
     left: 0;
-    padding: 0 5vw;
+    padding: 0 50px;
   }
   
   .whole-content-post {
-    width: 100%;
+    width: calc(100vw - 50px);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px!important;
