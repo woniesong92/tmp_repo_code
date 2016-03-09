@@ -88,8 +88,8 @@ body {
   .main-content {
     width: 100vw;
     position: relative;
-    left: 50px;
-    padding: 50px 50px 50px 0;
+    left: 0;
+    padding: 50px;
   }
   
   .whole-content-post {
