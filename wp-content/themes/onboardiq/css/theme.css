@@ -51,7 +51,7 @@ body {
     height: 100%;
   }
   
-  .main-content {
+  .main-content, .whole-content-post {
     width: calc(100% - 320px);
   }
 }
@@ -65,7 +65,7 @@ body {
     display: none;
   }
   
-  .main-content {
+  .main-content, .whole-content-post {
     width: 100%;
     left: 0;
   }
@@ -254,11 +254,6 @@ body {
   margin-top: -10px;
 }
 
-.whole-content-post {
-  width: inherit;
-  margin: 0px!important;
-}
-
 .post-content-text, .single-page-post-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
@@ -268,6 +263,7 @@ body {
 .post-thumbnail-img {
   max-height: inherit;
   max-width: inherit;
+  margin: 0 auto 0 auto;
 }
 
 .post-thumbnail-img div { 
