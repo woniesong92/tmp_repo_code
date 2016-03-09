@@ -1,21 +1,25 @@
 <?php
 /**
- * The template for displaying all single posts.
+ * The main template file.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package onboardiq
  */
 
- get_header(); ?>
+get_header(); ?>
 <a class="btn btn-primary" role="button" data-toggle="collapse" href=".widget-area" aria-expanded="false" aria-controls="collapseExample">
   <div class="sidebar-toggle-button"></div>
 </a>
- <div class="row">
-   <div class="container">
-   <?php get_sidebar(); ?>
-     <div class="col-md-8 col-xs-12">
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="row">
+  <?php get_sidebar(); ?>
+    <div class="main-content">
+      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
               <div class="single-page-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
                 <img src=<?php echo catch_that_image() ?>>
                 <div><a href=<?php echo catch_that_image() ?>>Sourcing</a></div>
@@ -57,6 +61,6 @@
                 </footer><!-- .entry-footer -->
                 </div><!-- single-page-post-text -->
         </article><!-- #post-## -->
-</div><!-- .container -->
+  </div><!--main-content -->
 <?php
 get_footer();
