@@ -20,7 +20,7 @@
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
             <p style="padding-right: 15px; padding-left: 15px">|</p>
-            <?php comments_number(); ?>
+            <fb:comments-count href="<?php echo get_permalink($post->ID); ?>"></fb:comments-count> comments
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
