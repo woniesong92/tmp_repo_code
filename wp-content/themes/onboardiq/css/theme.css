@@ -13,13 +13,18 @@ body {
   display: none;
 }
 
+.btn.btn-primary {
+  background-color: transparent!important;
+  z-index: 99;
+}
+
 .sidebar-toggle-button {
   width: 45px;
   height: 45px;
   border-radius: 22px;
   background-color: #BEC4EA;
   background-image: url('../images/line-menu.png');
-  background-size: 40px 40px;
+  background-size: 33px 33px;
   background-repeat: no-repeat;
   background-position: center;
 }
