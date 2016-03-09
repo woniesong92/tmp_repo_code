@@ -19,6 +19,9 @@ body {
   display: none;
 }
 
+/*--------------------------------------------------------------
+# Resizing
+--------------------------------------------------------------*/
 .btn.btn-primary {
   background-color: transparent!important;
   border: 0px;
@@ -43,7 +46,6 @@ body {
   background-position: center;
 }
 
-/*------------- resizing -------------*/
 @media (min-width: 1024px) {
   .sidebar-toggle-button {
     display: none;
@@ -106,7 +108,9 @@ body {
   }
 }
 
-/*------------- sidebar -------------*/
+/*--------------------------------------------------------------
+# Sidebar Content
+--------------------------------------------------------------*/
 .widget-area {
   border-right: 10px solid #BEC4EA;
   padding: 20px;
@@ -122,59 +126,6 @@ body {
 .widget {
   margin-left: auto;
   margin-right: auto;
-}
-
-.widget-title {
-  color: #BFBFBF;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-.widget_search, .widget_recent_entries {
-  width: 80%;
-}
-
-.widget_recent_entries ul {
-  list-style-type: none;
-}
-
-.widget_recent_entries ul li {
-  margin: 10px 0 0 -82px;
-}
-
-.widget_recent_entries ul li a {
-  color: #7F7F7F;
-  font-size: 15px;
-}
-
-.search-field {
-  border: none!important;
-  border-bottom: 1.5px solid #E5E5E5!important;
-  height: 40px;
-  width: 100%;
-  outline: none;
-  padding-left: 35px!important;
-  font-weight: 200;
-  margin: 0 auto 40px auto;
-  background: url('../images/search.png');
-  background-size: 30px 30px;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
-.search-submit {
-  display: none;
-}
-
-.company-description {
-  color: #7F7F7F;
-  font-size: 12px;
-  text-align: center;
-  width: 165px;
-  margin: 40px auto 40px auto;
 }
 
 .navbar-brand.logo {
@@ -209,6 +160,42 @@ body {
   display:inline-block;
 }
 
+.company-description {
+  color: #7F7F7F;
+  font-size: 12px;
+  text-align: center;
+  width: 165px;
+  margin: 40px auto 40px auto;
+}
+
+.widget-title {
+  color: #BFBFBF;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.widget_search, .widget_recent_entries {
+  width: 80%;
+}
+
+/*----- recent entries -----*/
+.widget_recent_entries ul {
+  list-style-type: none;
+}
+
+.widget_recent_entries ul li {
+  margin: 10px 0 0 -82px;
+}
+
+.widget_recent_entries ul li a {
+  color: #7F7F7F;
+  font-size: 15px;
+}
+
+/*----- subscribe -----*/
 #subscribe-header{
   display: none;
 }
@@ -238,7 +225,29 @@ body {
   background-color:#424B84;
 }
 
-/*------------- posts -------------*/
+/*----- search -----*/
+.search-field {
+  border: none!important;
+  border-bottom: 1.5px solid #E5E5E5!important;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  padding-left: 35px!important;
+  font-weight: 200;
+  margin: 0 auto 40px auto;
+  background: url('../images/search.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.search-submit {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Post Content
+--------------------------------------------------------------*/
 .edit-link {
   margin-left: 10px;
 }
@@ -329,6 +338,18 @@ body {
   letter-spacing: 0.5px;
 }
 
+.post-thumbnail-img a:visited, single-page-thumbnail-img a:visited{ 
+  color: #fff;
+}
+
+.post-thumbnail-img a:hover, single-page-thumbnail-img a:hover{ 
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Single Page Post Specifics
+--------------------------------------------------------------*/
+
 .single-page-thumbnail-img {
   height: 30vh;
   overflow: hidden;
@@ -358,14 +379,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.post-thumbnail-img a:visited, single-page-thumbnail-img a:visited{ 
-  color: #fff;
-}
-
-.post-thumbnail-img a:hover, single-page-thumbnail-img a:hover{ 
-  text-decoration: none;
-}
-
 .comments-divider {
   font-size: 14px;
   margin: 0px 10px;
@@ -383,7 +396,9 @@ body {
 }
 
 
-/*------------- shareicons -------------*/
+/*--------------------------------------------------------------
+# Share Icons
+--------------------------------------------------------------*/
 .single-page-content #crestashareicon {
   display: none!important;
 }
