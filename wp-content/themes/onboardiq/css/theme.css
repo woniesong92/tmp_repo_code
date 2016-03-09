@@ -291,14 +291,12 @@ body {
 
 .whole-content-post {
   margin: 0px;
-  margin-right: 0px;
-  padding-right: 0px;
 }
 
 .post-content-text, .single-page-post-text {
   background-color: #fff;
   border: 1px solid #E5E5E5;
-  padding: 40px!important;
+  padding: 40px;
 }
 
 .post-thumbnail-img {
