@@ -349,7 +349,6 @@ body {
 .single-page-thumbnail-img a { 
   color: #fff;
   font-size: 12px;
-  width: 400px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -369,10 +368,6 @@ body {
 .comments-title {
   font-size: 20px;
   font-weight: 600;
-}
-
-.post {
-  margin-bottom: 0;
 }
 
 
