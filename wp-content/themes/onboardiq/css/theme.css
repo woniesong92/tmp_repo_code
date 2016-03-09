@@ -296,6 +296,7 @@ body {
   width: 400px!important;
   font-weight: 200;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .single-page-thumbnail-img {
@@ -322,6 +323,7 @@ body {
   width: 400px!important;
   font-weight: 200;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .post-thumbnail-img a:visited, single-page-thumbnail-img a:visited{ 
