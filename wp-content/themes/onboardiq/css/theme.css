@@ -39,6 +39,7 @@ body {
   }
 
   .widget-area {
+    display:inline-block!important;
     display: fixed;
   }
 }
