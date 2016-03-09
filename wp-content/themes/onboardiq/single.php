@@ -11,6 +11,8 @@
  <div class="row">
    <div class="container">
    <?php get_sidebar(); ?>
+     <div class="col-md-8 col-xs-12">
+	
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
               <div class="single-page-thumbnail-img" <?php if (is_null(catch_that_image())){?>style="display:none"<?php } ?>>
@@ -52,7 +54,7 @@
                 <footer class="entry-footer">
                     <?php onboardiq_entry_footer(); ?>
                 </footer><!-- .entry-footer -->
-                </div><!-- .col-md-7 -->
+                </div><!-- single-page-post-text -->
         </article><!-- #post-## -->
 </div><!-- .container -->
 <?php
