@@ -27,7 +27,7 @@
 	-webkit-text-size-adjust: 100%;
 	letter-spacing: 0.5px;
 	font-family: 'Noto Sans', sans-serif;
-	line-height: 1;
+	line-height: 5;
 }
 .cresta-share-icon .sbutton.crestaShadow a i {
 	border-bottom: 2px solid rgba(0,0,0,.1);
