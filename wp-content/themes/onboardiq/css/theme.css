@@ -388,7 +388,7 @@ body {
   display: none!important;
 }
 
-#crestashareiconincontent  {
+.social-share-icons  {
   position: absolute;
   top: 28vw;
   right: 20px;
