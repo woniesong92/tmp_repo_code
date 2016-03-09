@@ -157,9 +157,9 @@ body {
   padding: 20px!important;
   height: 100%;
   background-color: #fff!important;
-  position: fixed;
+  /*position: fixed;
   left: 0;
-  top: 0;
+  top: 0;*/
 }
 
 .search-field {
