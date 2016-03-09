@@ -34,6 +34,28 @@ function onboardiq_posted_on() {
 }
 endif;
 
+if ( ! function_exists( 'onboardiq_comment_count' ) ) :
+/**
+ * Prints HTML with meta information for the comments count.
+ */
+function onboardiq_comment_count() {
+  $num_comments = get_comments_number();
+
+  if ( comments_open() ) {
+      if ( $num_comments == 0 ) {
+          $comments = __('No Comments');
+      } elseif ( $num_comments > 1 ) {
+          $comments = $num_comments . __(' Comments');
+      } else {
+          $comments = __('1 Comment');
+      }
+      echo '<span class="comment-count">' . get_comments_link() .''. $comments.'</span>';
+  } else {
+    echo '<span class="comment-count">Comments are off for this post.</span>';
+  }
+}
+endif;
+
 if ( ! function_exists( 'onboardiq_entry_footer' ) ) :
 /**
  * Prints HTML with meta information for the categories, tags and comments.

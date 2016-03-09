@@ -20,20 +20,7 @@
         <div class="entry-meta">
             <?php onboardiq_posted_on(); ?>
             <p style="padding-right: 15px; padding-left: 15px">|</p>
-            <?php
-              if ( comments_open() ) {
-                  if ( get_comments_number() == 0 ) {
-                      echo ('0 comments');
-                  } elseif ( get_comments_number() > 1 ) {
-                      echo (' comments');
-                  } else {
-                      echo ('1 comments');
-                  }
-              } else {
-                  echo ('Comments are off for this post.');
-              }
-            <?php
-            endif; ?>
+            <?php onboardiq_comment_count(); ?>
         </div><!-- .entry-meta -->
         <header class="entry-header">
             <?php
