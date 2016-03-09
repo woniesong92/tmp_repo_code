@@ -385,7 +385,7 @@ body {
 
 /*------------- shareicons -------------*/
 .single-page-content #crestashareicon {
-  visibility: hidden!important;
+  display: none!important;
 }
 
 .single-page-content .cresta-share-icon {
@@ -406,13 +406,4 @@ body {
 
 .single-page-content #crestashareiconincontent {
   font-size: 25px!important;
-}
-
-.whole-content-post > #crestashareicon{
-  visibility: visible;
-}
-
-.whole-content-post > .cresta-share-icon {
-  float: right;
-  display: inline-block;
 }
