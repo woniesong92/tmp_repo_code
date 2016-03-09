@@ -249,6 +249,7 @@ body {
 
 .entry-content a {
   color: #7D88D4;
+  font-weight: 400;
 }
 
 .entry-content a:hover {
