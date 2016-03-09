@@ -88,12 +88,12 @@ body {
   .main-content {
     width: 100vw;
     position: relative;
-    left: 50px;
-    padding: 50px 50px 50px 0;
+    left: 0;
+    padding: 0 5vw;
   }
   
   .whole-content-post {
-    width: 90vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px!important;
@@ -384,6 +384,6 @@ body {
 
 
 /*------------- shareicons -------------*/
-#crestashareicon, #crestashareiconincontent {
+#crestashareicon {
   display: none!important;
 }
