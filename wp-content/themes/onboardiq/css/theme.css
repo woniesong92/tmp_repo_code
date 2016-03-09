@@ -59,7 +59,9 @@ body {
   
   .main-content {
     width: calc(100% - 350px);
+    position: relative!important;
     left: 350px;
+    padding: 60px 60px 60px 0;
   }
   
   .whole-content-post {
@@ -78,7 +80,9 @@ body {
   
   .main-content {
     width: 100%;
-    left: 0;
+    position: relative!important;
+    left: 50px;
+    padding: 50px 50px 50px 0;
   }
   
   .whole-content-post {
