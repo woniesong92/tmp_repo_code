@@ -36,6 +36,7 @@ body {
 
 .main-content {
   width: calc(100% - 320px);
+  position: relative!important;
   left: 320px;
 }
 
@@ -51,7 +52,6 @@ body {
   
   .main-content {
     width: calc(100% - 320px);
-    left: 320px;
   }
 }
 
@@ -256,7 +256,6 @@ body {
 .whole-content-post {
   width: 80%;
   margin: 0px!important;
-  position: relative;
 }
 
 .post-content-text, .single-page-post-text {
